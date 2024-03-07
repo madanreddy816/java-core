@@ -13,20 +13,32 @@ public class D03P11
         	String pattern = scanner.nextLine();
         	System.out.print("Enter the number of strings in the dictionary: ");
         	int n = scanner.nextInt();
+<<<<<<< HEAD
         	scanner.nextLine(); // Consume newline
+=======
+       		scanner.nextLine(); // Consume newline
+>>>>>>> 50fecc7d0cbd3af7b7632d2abdaa100e1b205ca0
         	List<String> dictionary = new ArrayList<>();
         	System.out.println("Enter the strings in the dictionary:");
         	for (int i = 0; i < n; i++)
         	{
            	dictionary.add(scanner.nextLine());
         	}
+<<<<<<< HEAD
         	List<String> matchedStrings = findMatchingStrings(dictionary, pattern);
+=======
+       		List<String> matchedStrings = findMatchingStrings(dictionary, pattern);
+>>>>>>> 50fecc7d0cbd3af7b7632d2abdaa100e1b205ca0
         	System.out.println("Strings matching the pattern:");
         	for (String str : matchedStrings) 
         	{
             	System.out.println(str);
         	}
+<<<<<<< HEAD
 	}
+=======
+    	}
+>>>>>>> 50fecc7d0cbd3af7b7632d2abdaa100e1b205ca0
 
     public static List<String> findMatchingStrings(List<String> dictionary, String pattern) 
     {
