@@ -4,17 +4,17 @@ import java.util.TreeMap;
 import java.util.Map;
 import java.util.Objects;
 
-class Car implements Comparable<Car>
+class Car1 implements Comparable<Car1>
 {
     private String name;
     private double price;
 
-    public Car() 
+    public Car1() 
     {
         super();
     }
 
-    public Car(String name, double price)
+    public Car1(String name, double price)
     {
         super();
         this.name = name;
@@ -56,7 +56,7 @@ class Car implements Comparable<Car>
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Car other = (Car) obj;
+        Car1 other = (Car1) obj;
         return Objects.equals(name, other.name)
                 && Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price);
     }
@@ -67,8 +67,7 @@ class Car implements Comparable<Car>
         return name + " " + price;
     }
 
-    @Override
-    public int compareTo(Car o) 
+    public int compareTo(Car1 o) 
     {
         return Double.compare(this.price, o.price);
     }
@@ -80,15 +79,15 @@ public class D06P08
 
     public static void main(String[] args) 
     {
-        TreeMap<Integer, Car> car = new TreeMap<>();
+        TreeMap<Integer, Car1> car = new TreeMap<>();
 
-        car.put(1, new Car("Bugatti", 80050));
-        car.put(2, new Car("Swift", 305000));
-        car.put(3, new Car("Audi", 600100));
-        car.put(4, new Car("Benz", 900000));
+        car.put(1, new Car1("Bugatti", 80050));
+        car.put(2, new Car1("Swift", 305000));
+        car.put(3, new Car1("Audi", 600100));
+        car.put(4, new Car1("Benz", 900000));
         int lastKey = car.lastKey();
-        Car removedCar = car.remove(lastKey);
-        for (Car c : car.values()) 
+        Car1 removedCar = car.remove(lastKey);
+        for (Car1 c : car.values()) 
         {
             System.out.println(c);
         }

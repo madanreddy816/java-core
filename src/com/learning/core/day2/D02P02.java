@@ -1,8 +1,8 @@
-package learning.core.day2;
+package com.learning.day2;
 
 import java.util.Scanner;
 
-public class DO2P02
+public class D02P02
 {
 	public static void main(String[] args) 
 	{

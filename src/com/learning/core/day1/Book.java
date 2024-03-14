@@ -1,4 +1,4 @@
-package core.day1;
+package com.learning.day1;
 
 public class Book 
 {

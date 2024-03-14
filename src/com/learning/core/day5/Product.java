@@ -40,7 +40,7 @@ public class Product
 
 	@Override
 	public String toString() {
-		return " ProductId=" + ProductId + ", ProductName=" + ProductName + "";
+		return " ProductId=" + ProductId + " ProductName=" + ProductName + "";
 	}
 
 	@Override
@@ -57,6 +57,6 @@ public class Product
 		if (getClass() != obj.getClass())
 			return false;
 		Product other = (Product) obj;
-		return ProductId == other.ProductId && Objects.equals(ProductName, other.ProductName);
+		return ProductId.equals(other.ProductId) && Objects.equals(ProductName, other.ProductName);
 	}
 }

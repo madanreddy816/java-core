@@ -19,16 +19,10 @@ public class D05P02
 		System.out.println(al);
 		System.out.println("Enter the name to search");
 		String search=sc.nextLine();
-		if(al.contains(search))
-		{
-			System.out.println(search+"  "+"Found");
-		}
-		else
-		{
-			System.out.println("Not Found");
-		}
-		
-		
+		if (al.contains(search)) {
+            System.out.println( "Found");
+        } else {
+            System.out.println(" Not found");
+        }
 	}
-
 }

@@ -1,4 +1,4 @@
-package learning.core.day2;
+package com.learning.day2;
 
 import java.util.Scanner;
 
