@@ -1,4 +1,4 @@
-package com.learning.day6;
+package com.learning.core.day6;
 import java.util.Comparator;
 import java.util.TreeMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.learning.day6;
+package com.learning.core.day6;
 
 import java.util.*;
 
