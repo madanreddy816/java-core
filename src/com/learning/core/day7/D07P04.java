@@ -1,4 +1,4 @@
-package com.learning.day7;
+package com.learning.core.day7;
 import java.util.Scanner;
 import java.util.Stack;
 public class D07P04 {

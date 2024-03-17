@@ -1,4 +1,4 @@
-package com.learning.day7;
+package com.learning.core.day7;
 class Node 
 {
     double data;
