@@ -1,4 +1,4 @@
-package com.learning.day10;
+package com.learning.core.day10;
 import java.io.IOException;
 import java.nio.file.*;
 public class D10P04 

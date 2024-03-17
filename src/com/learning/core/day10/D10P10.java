@@ -1,4 +1,4 @@
-package com.learning.day10;
+package com.learning.core.day10;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Scanner;

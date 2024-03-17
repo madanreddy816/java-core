@@ -1,4 +1,4 @@
-package com.learning.day10;
+package com.learning.core.day10;
 import static org.junit.Assert.*;
 import org.junit.Test;
 

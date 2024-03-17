@@ -1,4 +1,4 @@
-package com.learning.day10;
+package com.learning.core.day10;
 import java.io.*;
 public class D10P01 {
   public static void main(String[] args) 
