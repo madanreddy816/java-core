@@ -1,4 +1,4 @@
-package com.learning.day8;
+package com.learning.core.day8;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
