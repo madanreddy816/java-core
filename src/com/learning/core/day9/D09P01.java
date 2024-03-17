@@ -1,4 +1,4 @@
-package com.learning.day9;
+package com.learning.core.day9;
 import java.util.Scanner;
 class QuickSort
 {
