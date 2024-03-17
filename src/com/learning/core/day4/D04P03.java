@@ -1,4 +1,4 @@
-package com.learning.day4;
+package com.learning.core.day4;
 import java.util.Scanner;
 public class D04P03 
 {

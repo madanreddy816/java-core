@@ -1,5 +1,4 @@
-package com.learning.day4;
-
+package com.learning.core.day4;
 import java.util.Scanner;
 import java.util.Scanner; 
 class NegativeAmount extends Exception  
