@@ -1,5 +1,4 @@
-package com.learning.day5;
-
+package com.learning.core.day5;
 import java.util.TreeSet;
 
 class Person3 implements Comparable<Person3> 

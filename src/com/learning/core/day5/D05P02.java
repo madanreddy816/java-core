@@ -1,5 +1,4 @@
-package com.learning.day5;
-
+package com.learning.core.day5;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

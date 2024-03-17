@@ -1,5 +1,4 @@
-package com.learning.day5;
-
+package com.learning.core.day5;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
